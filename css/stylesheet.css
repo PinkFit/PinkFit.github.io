@@ -1,11 +1,18 @@
 html {
   background-color: #000000;
+  height: 100%;
+  width: 100%;
 }
 body {
   background-color: #E60079;
+  height: 80%;
+  width: 80%;
 }
 aside {
   background-color: #000000;
+  float: left;
+  height: 80%;
+  width: 20%;
 }
 h1 {
   color: #ffffff;
