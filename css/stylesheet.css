@@ -3,6 +3,12 @@ html {
   height: 100%;
   width: 100%;
 }
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
 header {
   height: 18%;
   width: 90%;
@@ -13,6 +19,8 @@ header {
 footer {
   height: 18%;
   width: 90%;
+  margin-bottom: 0;
+  clear: both;
 }
 body {
   background-color: #333333;
@@ -46,4 +54,19 @@ h3 {
 }
 a {
   color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+img.fitlogo {
+  height: 5%;
+  width: 5%;
+  float: left;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: 50px;
+  min-height: 40px;
+  min-width: 40px;
 }
