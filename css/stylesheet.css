@@ -7,12 +7,14 @@ body {
   background-color: #E60079;
   height: 80%;
   width: 80%;
+  position: relative;
 }
 aside {
   background-color: #000000;
   float: left;
   height: 80%;
   width: 20%;
+  position: relative;
 }
 h1 {
   color: #ffffff;
