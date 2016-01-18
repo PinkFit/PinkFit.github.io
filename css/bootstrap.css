@@ -1086,7 +1086,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #ff66cc;
 }
 input,
 button,
@@ -1097,13 +1097,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #000;
   text-decoration: none;
 }
 a:hover,
 a:focus {
   color: #23527c;
   text-decoration: underline;
+  color: #FFF;
 }
 a:focus {
   outline: thin dotted;
@@ -4036,7 +4037,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #000;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4644,7 +4645,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #000;
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
@@ -6812,12 +6813,12 @@ button.close {
     }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+    .row.content {height: 100%}
 
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: #f1f1f1;
+      background-color: #666666;
       height: 100%;
     }
 
@@ -6835,4 +6836,7 @@ button.close {
         padding: 15px;
       }
       .row.content {height:auto;}
+    }
+    div#myNavbar {
+      background-color: #000;
     }
