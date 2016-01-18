@@ -4333,8 +4333,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
-  min-height: 15%;
-  min-width: 15%;
+  min-height: 25%;
+  min-width: 25%;
   max-height: 25%;
   max-width: 25%;
   border-radius: 50%;
