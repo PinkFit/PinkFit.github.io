@@ -4335,8 +4335,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   height: 5%;
   width: 5%;
   float: left;
-  margin-left: 5px;
-  margin-right: 10px;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-bottom: 8px;
   border-radius: 50%;
   max-height: 50px;
   max-width: 50px;
