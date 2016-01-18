@@ -4332,19 +4332,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 .navbar-brand > img {
-  display: block;
-  position: relative;
+  height: 5%;
+  width: 5%;
   float: left;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-left: 15px;
-  margin-bottom: 8px;
-  max-height: 20%;
-  max-width: 20%;
+  margin-left: 5px;
+  margin-right: 10px;
   border-radius: 50%;
-  min-height: 15%;
-  min-width: 15%;
-  padding: 0;
+  max-height: 50px;
+  max-width: 50px;
+  min-height: 40px;
+  min-width: 40px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
